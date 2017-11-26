@@ -67,6 +67,8 @@
             this.checkBox33 = new System.Windows.Forms.CheckBox();
             this.checkBox34 = new System.Windows.Forms.CheckBox();
             this.checkBox35 = new System.Windows.Forms.CheckBox();
+            this.checkBox36 = new System.Windows.Forms.CheckBox();
+            this.checkBox37 = new System.Windows.Forms.CheckBox();
             this.SuspendLayout();
             // 
             // checkBox1
@@ -571,12 +573,38 @@
             this.checkBox35.UseVisualStyleBackColor = false;
             this.checkBox35.CheckedChanged += new System.EventHandler(this.checkBox35_CheckedChanged);
             // 
+            // checkBox36
+            // 
+            this.checkBox36.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox36.BackColor = System.Drawing.Color.CadetBlue;
+            this.checkBox36.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox36.Location = new System.Drawing.Point(13, 21);
+            this.checkBox36.Name = "checkBox36";
+            this.checkBox36.Size = new System.Drawing.Size(27, 20);
+            this.checkBox36.TabIndex = 38;
+            this.checkBox36.UseVisualStyleBackColor = false;
+            this.checkBox36.CheckedChanged += new System.EventHandler(this.checkBox36_CheckedChanged);
+            // 
+            // checkBox37
+            // 
+            this.checkBox37.Appearance = System.Windows.Forms.Appearance.Button;
+            this.checkBox37.BackColor = System.Drawing.Color.CadetBlue;
+            this.checkBox37.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
+            this.checkBox37.Location = new System.Drawing.Point(13, 577);
+            this.checkBox37.Name = "checkBox37";
+            this.checkBox37.Size = new System.Drawing.Size(27, 20);
+            this.checkBox37.TabIndex = 39;
+            this.checkBox37.UseVisualStyleBackColor = false;
+            this.checkBox37.CheckedChanged += new System.EventHandler(this.checkBox37_CheckedChanged);
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(40)))), ((int)(((byte)(0)))), ((int)(((byte)(90)))));
-            this.ClientSize = new System.Drawing.Size(619, 632);
+            this.ClientSize = new System.Drawing.Size(615, 637);
+            this.Controls.Add(this.checkBox37);
+            this.Controls.Add(this.checkBox36);
             this.Controls.Add(this.checkBox35);
             this.Controls.Add(this.checkBox34);
             this.Controls.Add(this.checkBox33);
@@ -617,6 +645,7 @@
             this.Controls.Add(this.checkBox1);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Form1";
+            this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Bingo";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.ResumeLayout(false);
@@ -664,6 +693,8 @@
         private System.Windows.Forms.CheckBox checkBox33;
         private System.Windows.Forms.CheckBox checkBox34;
         private System.Windows.Forms.CheckBox checkBox35;
+        private System.Windows.Forms.CheckBox checkBox36;
+        private System.Windows.Forms.CheckBox checkBox37;
     }
 }
 

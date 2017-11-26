@@ -7,3 +7,4 @@ c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Release\Bin
 c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Release\Bingo.exe
 c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Release\Bingo.pdb
 C:\Users\jason\Documents\Visual Studio 2013\Projects\Bingo\Bingo\obj\Release\Bingo.csprojResolveAssemblyReference.cache
+C:\Users\jason\Documents\Visual Studio 2013\Projects\Bingo\Bingo\obj\Release\Bingo.Form2.resources
