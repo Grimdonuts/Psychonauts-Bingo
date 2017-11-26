@@ -44,7 +44,7 @@ namespace Bingo
                         {
                             do
                             {
-                                number = rnd.Next(0, 125);
+                                number = rnd.Next(0, bingoList.Count);
                             } while (bingoarray.Contains(number));
                             bingoarray.Add(number);
                         }
@@ -109,7 +109,7 @@ namespace Bingo
                     {
                         do
                         {
-                            number = rnd.Next(0, 125);
+                            number = rnd.Next(0, bingoList.Count);
                         } while (bingoarray.Contains(number));
                         bingoarray.Add(number);
                     }
