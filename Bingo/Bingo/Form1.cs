@@ -38,16 +38,15 @@ namespace Bingo
 
                     List<int> bingoarray = new List<int>();
                     int number;
-                    for (int i = 0; i < 5; ++i)
+                    for (int i = 0; i < 25; ++i)
                     {
-                        for (int j = 0; j < 5; ++j)
-                        {
+                        
                             do
                             {
                                 number = rnd.Next(0, bingoList.Count);
                             } while (bingoarray.Contains(number));
                             bingoarray.Add(number);
-                        }
+                        
 
                     }
                     textBox1.Text = seedNumber + "";
@@ -103,16 +102,15 @@ namespace Bingo
                 // int[,] bingoarray = new int[5, 5];
                 List<int> bingoarray = new List<int>();
                 int number;
-                for (int i = 0; i < 5; ++i)
+                for (int i = 0; i < 25; ++i)
                 {
-                    for (int j = 0; j < 5; ++j)
-                    {
+                    
                         do
                         {
                             number = rnd.Next(0, bingoList.Count);
                         } while (bingoarray.Contains(number));
                         bingoarray.Add(number);
-                    }
+                   
 
                 }
                 textBox1.Text = seedNumber + "";
