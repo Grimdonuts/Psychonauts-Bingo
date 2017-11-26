@@ -1,0 +1,9 @@
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\bin\Debug\Bingo.exe.config
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\bin\Debug\Bingo.exe
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\bin\Debug\Bingo.pdb
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.csprojResolveAssemblyReference.cache
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.Form1.resources
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.Properties.Resources.resources
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.csproj.GenerateResource.Cache
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.exe
+c:\users\jason\documents\visual studio 2013\Projects\Bingo\Bingo\obj\Debug\Bingo.pdb
